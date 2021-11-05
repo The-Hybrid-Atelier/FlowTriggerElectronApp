@@ -5,7 +5,7 @@ A general application to build off of for The Hybrid Atelier Laboratory.
 ## General Notes
 
 The main branch is a template to view the https://hybridatelier.uta.edu/ via a native desktop app.
-main.js is the file that will running the shell of our project applications.
+main.js is the file that will running the shell of our project applications. ([info](https://www.electronjs.org/docs/latest/api/browser-window))
 
 # Setting up Electron
 
