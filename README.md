@@ -36,8 +36,8 @@ Note: Documentation strongly recommends using Yarn, but npm is okay in most case
 npm install electron-builder --dev
 ```
 
-To build the app, our current command that is configured in the package.json is:
+To build the app, our current command configured is:
 
 ```bash
-npm install electron-builder --dev
+npm run dist
 ```
