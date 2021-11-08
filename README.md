@@ -2,6 +2,10 @@
 
 A general application to build off of for The Hybrid Atelier Laboratory.
 
+## Authors
+
+-[Tyler Do](https://github.com/dotyler)
+
 ## General Notes
 
 The main branch is a template to view the https://hybridatelier.uta.edu/ via a native desktop app.
@@ -15,7 +19,7 @@ To install prebuilt Electron binaries, use npm. The preferred method is to insta
 npm install electron --save-dev
 ```
 
-## Clone the repo & running the app
+## Getting Started: Clone the repo & running the app
 
 ```bash
 git clone https://github.com/The-Hybrid-Atelier/LabApp.git
@@ -24,7 +28,7 @@ npm install
 npm start
 ```
 
-# Electron Building
+# Electron Builder
 
 In this app, we are currently using the [electron-builder](https://choosealicense.com/licenses/mit/) library.
 The configurations of building binaries for LabApp will be located in package.json.
