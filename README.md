@@ -28,7 +28,26 @@ npm install
 npm start
 ```
 
-# Electron Builder
+# Electron Forge (Simple Application Builder)
+
+In this app, we are currently using the [electron-builder](https://choosealicense.com/licenses/mit/) library.
+The configurations of building binaries for LabApp will be located in package.json.
+For more information, view the [electron-builder](https://choosealicense.com/licenses/mit/) documentation link.
+
+Note: Documentation strongly recommends using Yarn, but npm is okay in most cases.
+
+```bash
+npm install --save-dev @electron-forge/cli
+```
+
+To build the app, our current command configured is:
+Note: Make sure package.json is configured correctly
+
+```bash
+npm run make
+```
+
+# Electron Builder (More difficult, Application builder)
 
 In this app, we are currently using the [electron-builder](https://choosealicense.com/licenses/mit/) library.
 The configurations of building binaries for LabApp will be located in package.json.
@@ -41,6 +60,7 @@ npm install electron-builder --dev
 ```
 
 To build the app, our current command configured is:
+Note: Make sure package.json is configured correctly
 
 ```bash
 npm run dist
