@@ -60,7 +60,7 @@ function createMainMenu() {
           }
         }
       ]
-    },s
+    },
     {
       label: "IoT Interfaces",
       submenu: [
