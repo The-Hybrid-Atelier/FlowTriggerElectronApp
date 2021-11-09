@@ -1,0 +1,45 @@
+{
+  "name": "electron-quick-start",
+  "productName": "Hybrid Atelier LabApp",
+  "version": "1.0.0",
+  "description": "A general application to build off of for The Hybrid Atelier Laboratory.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "echo \"No linting configured\""
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "GitHub, Tyler Do",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.0-beta.61",
+    "electron": "^15.1.2",
+    "electron-builder": "^22.13.1"
+  },
+  "build": {
+    "appId": "electron-quick-start",
+    "win": {
+      "target": [
+        "nsis"
+      ],
+      "icon": "build/THA-WBG.png",
+      "requestedExecutionLevel": "requireAdministrator"
+    },
+    "nsis": {
+      "allowToChangeInstallationDirectory": true,
+      "oneClick": false,
+      "installerIcon": "build/THA-WBG.png",
+      "uninstallerIcon": "build/THA-WBG.png"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+node_modules/
+
+dist/
+
+#ignore all .exe (application) files
+*.exe
+dist/win-unpacked/Hybrid Atelier Electron App.exe
