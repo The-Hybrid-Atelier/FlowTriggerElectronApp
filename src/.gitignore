@@ -1,6 +1,7 @@
 node_modules/
 
 dist/
+out/
 
 #ignore all .exe (application) files
 *.exe
