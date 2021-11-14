@@ -1,6 +1,9 @@
 # LabApp
 
 A general application to build off of for The Hybrid Atelier Laboratory.
+
+[Quick Sample Run-thru Video](https://drive.google.com/file/d/1MeyfHN5E0SCE2t_syjxXArB_4_DFZGvh/view?usp=sharing)
+
 [Watch our Intro Video](https://drive.google.com/file/d/1Bbaz10mofeM7eu_beZMURej-iZroBePn/view?usp=sharing)
 
 ## Authors
