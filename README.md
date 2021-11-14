@@ -1,6 +1,7 @@
 # LabApp
 
 A general application to build off of for The Hybrid Atelier Laboratory.
+[Watch our Intro Video](https://drive.google.com/file/d/1Bbaz10mofeM7eu_beZMURej-iZroBePn/view?usp=sharing)
 
 ## Authors
 
@@ -30,9 +31,9 @@ npm start
 
 # Electron Forge (Simple Application Builder)
 
-In this app, we are currently using the [electron-builder](https://choosealicense.com/licenses/mit/) library.
+In this app, we are currently using the [electron-forge](https://www.electronforge.io/) library.
 The configurations of building binaries for LabApp will be located in package.json.
-For more information, view the [electron-builder](https://choosealicense.com/licenses/mit/) documentation link.
+For more information, view the [electron-forge](https://www.electronforge.io/) documentation link.
 
 Note: Documentation strongly recommends using Yarn, but npm is okay in most cases.
 
@@ -47,11 +48,25 @@ Note: Make sure package.json is configured correctly
 npm run make
 ```
 
+## Error fixing:
+
+```
+An unhandled rejection has occurred inside Forge:
+Error: Could not find any make targets configured for the "win32" platform.
+```
+
+Run this command after reinstalling electron forge using npm
+
+```bash
+npm install --save-dev @electron-forge/cli
+npx electron-forge import
+```
+
 # Electron Builder (More difficult, Application builder)
 
-In this app, we are currently using the [electron-builder](https://choosealicense.com/licenses/mit/) library.
+In this app, we are currently using the [electron-builder](https://www.electron.build/) library.
 The configurations of building binaries for LabApp will be located in package.json.
-For more information, view the [electron-builder](https://choosealicense.com/licenses/mit/) documentation link.
+For more information, view the [electron-builder](https://www.electron.build/) documentation link.
 
 Note: Documentation strongly recommends using Yarn, but npm is okay in most cases.
 

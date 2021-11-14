@@ -15,8 +15,13 @@ function createWindow() {
     minWidth: 1281, 
     minHeight: 800,
 
+    //titleBarStyle: "hidden", // add this line
+    menuPosition: "center",
 
-    backgroundColor: '#80FFFFFF',
+    
+    icon: "build/THA-WBG.png",
+
+    backgroundColor: '#444444',
     webPreferences: {
       preload: `${__dirname}/renderer.js`
     }
